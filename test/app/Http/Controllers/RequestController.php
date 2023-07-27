@@ -48,7 +48,7 @@ class RequestController extends Controller
     {
         try {
             $xml = new SimpleXMLElement($xmlData);
-            DB::table('requests')->insert([
+            DB::table('items')->insert([
                 'uuid' => (string)$xml->uuid,
                 'name' => (string)$xml->name,
                 'amount' => (int)$xml->amount,
