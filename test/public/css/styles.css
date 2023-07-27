@@ -1,0 +1,21 @@
+.table-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.table-row {
+    display: flex;
+}
+
+.table-row.header {
+    font-weight: bold;
+    background-color: #f0f0f0;
+}
+
+.table-cell {
+    padding: 5px;
+    flex: 1;
+}
